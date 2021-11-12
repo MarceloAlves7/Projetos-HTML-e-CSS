@@ -1,0 +1,63 @@
+*{  
+    font-size: 15px;
+  
+}
+body{
+    height: 700px;
+    width:900px;
+    margin: auto ;
+    text-align: justify;
+    padding: 15px;
+    background-color: rgb(184, 233, 235);
+}
+header{
+
+}
+div{ display: inline-block;
+
+
+}
+nav{
+    display: inline-block;
+    padding: 15px;
+   
+    
+
+}
+nav > a{
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+main{
+    width:900px;
+    padding: 10px;
+    background-color: white;
+}
+
+h1{
+    font-size: 25px;
+}
+
+img#capa{
+    width: 350px;
+    
+    margin: auto;
+}
+footer{
+    margin: auto;
+    background-color: cadetblue;
+    width: 920px;
+}
+footer > p{
+    text-align: center;
+}
+.p{
+    margin: 5px;
+}
+#ultimo{
+    margin-bottom: 5px;
+}
+    
