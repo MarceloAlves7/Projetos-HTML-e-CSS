@@ -8,7 +8,7 @@ body{
     margin: auto ;
     text-align: justify;
     padding: 15px;
-    background-color: rgb(184, 233, 235);
+    background-color: rgb(234, 254, 255);
 }
 header{
 
@@ -29,16 +29,29 @@ nav > a{
     background-color: cadetblue;
     border-radius: 15px;
     text-decoration: none;
+    color: aliceblue;
     
 }
+nav> a:hover {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
 main{
-    width:900px;
-    padding: 10px;
     background-color: white;
+    max-width: 900px;
+    min-width: 350px;
+    margin: auto;
+    padding: 0px;
+}
+main>p{
+    padding: 10px;
 }
 
 h1{
     font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 img#capa{
@@ -49,13 +62,18 @@ img#capa{
 footer{
     margin: auto;
     background-color: cadetblue;
-    width: 920px;
+    width: 900px;
 }
 footer > p{
     text-align: center;
+    color: aliceblue;
 }
 .p{
     margin: 5px;
+}
+input{
+  margin-left: 15px;
+
 }
 #ultimo{
     margin-bottom: 5px;
